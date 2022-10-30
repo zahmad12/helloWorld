@@ -1,7 +1,18 @@
 # Zeeshawn Ahmad
 # INST326 - Git & Github Assignment
 
-def welcome():
+
+"""Simple hello and goodbye functions"""
+
+
+def hello():
     return ("hello world")
 
-print (welcome())
+def goodbye():
+    return ("good bye")
+
+weather = 'good'
+if weather == 'good':
+    print (hello())
+else:
+    print (goodbye())
